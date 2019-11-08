@@ -53,6 +53,8 @@ public class operaciones {
         int den_b = 4; 
         
         num_res=denom_res = 0;
+       
+       
         
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
@@ -153,6 +155,8 @@ public class operaciones {
         int b_imaginario = 4; 
         
         res_real = res_imag = 0;
+        res_real= a_real - b_real;
+        res_imag= a_imaginario - b_imaginario;
         
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
