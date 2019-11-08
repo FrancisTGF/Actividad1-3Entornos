@@ -185,6 +185,9 @@ public class operaciones {
         
         res_real = res_imag = 0;
         
+        res_real=(a_real*b_real-a_imaginario*b_imaginario);
+        res_imag=(a_real*b_imaginario+b_real*a_imaginario);
+        
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
     
