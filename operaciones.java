@@ -28,7 +28,8 @@ public class operaciones {
         
         int den_b = 4; 
         
-        num_res=denom_res = 0;
+        num_res = (num_a * den_b) + (num_b * den_a);
+        denom_res = den_a * den_b;
             
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
@@ -53,6 +54,10 @@ public class operaciones {
         int den_b = 4; 
         
         num_res=denom_res = 0;
+        denom_res=den_a*den_b ;
+        int num_res1=num_a*den_b ;
+        int num_res2=num_b*den_a;
+        num_res= num_res1-num_res2;
         
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
@@ -77,6 +82,10 @@ public class operaciones {
         int den_b = 4; 
         
         num_res=denom_res = 0;
+        
+        num_res=num_a*num_b;
+        
+        denom_res=den_a*den_b;
         
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
