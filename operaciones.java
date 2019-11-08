@@ -54,10 +54,15 @@ public class operaciones {
         int den_b = 4; 
         
         num_res=denom_res = 0;
+<<<<<<< HEAD
         denom_res=den_a*den_b ;
         int num_res1=num_a*den_b ;
         int num_res2=num_b*den_a;
         num_res= num_res1-num_res2;
+=======
+       
+       
+>>>>>>> 7a3aaeb6b7d583a39681d0eb00560d51199acefa
         
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
@@ -138,6 +143,9 @@ public class operaciones {
         int b_imaginario = 4; 
         
         res_real = res_imag = 0;
+        res_real = a_real + b_real;
+        res_imag = a_imaginario + b_imaginario;
+        
         
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
@@ -162,6 +170,8 @@ public class operaciones {
         int b_imaginario = 4; 
         
         res_real = res_imag = 0;
+        res_real= a_real - b_real;
+        res_imag= a_imaginario - b_imaginario;
         
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
@@ -186,6 +196,9 @@ public class operaciones {
         int b_imaginario = 4; 
         
         res_real = res_imag = 0;
+        
+        res_real=(a_real*b_real-a_imaginario*b_imaginario);
+        res_imag=(a_real*b_imaginario+b_real*a_imaginario);
         
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
