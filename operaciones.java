@@ -192,8 +192,10 @@ public class operaciones {
     public static void n_complejo_modulo() {
          
     // Tenemos un números complejos a=2+3i 
-         
+        int a_real =2;
+        int a_imaginario = 3; 
         float modulo=0;
+        modulo=(2^2+3^2)^(1/2);
          
         System.out.println("El módulo es: "+modulo);
     }
