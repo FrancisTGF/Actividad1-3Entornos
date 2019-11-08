@@ -78,6 +78,10 @@ public class operaciones {
         
         num_res=denom_res = 0;
         
+        num_res=num_a*num_b;
+        
+        denom_res=den_a*den_b;
+        
         System.out.println("El resultado es: "+ num_res+ "/"+denom_res);
     }
       
