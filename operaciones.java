@@ -129,6 +129,9 @@ public class operaciones {
         int b_imaginario = 4; 
         
         res_real = res_imag = 0;
+        res_real = a_real + b_real;
+        res_imag = a_imaginario + b_imaginario;
+        
         
         System.out.println("El resultado es: "+ res_real+ "+"+res_imag + "i");
     }
